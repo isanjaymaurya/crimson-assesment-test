@@ -9,7 +9,7 @@ function App() {
    <>
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" element={<HomePage />} />
+        <Route exact path="/" index element={<HomePage />} />
         <Route path="/timer" element={<TimePage />} />
       </Routes>
     </BrowserRouter>
